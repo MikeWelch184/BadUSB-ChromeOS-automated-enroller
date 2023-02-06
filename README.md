@@ -5,4 +5,4 @@ The Duckyscript file in this repository is responsible for automatically enrolli
 Essentially you use a script and a USB that injects keystrokes (think like a programable keyboard) automatically. 
 Here are Links to the BadUSB I purchased https://maltronics.com/collections/malduinos/products/malduino-2
 and links to the scripting language basics if you want to write a script for something else. https://docs.maltronics.com/badusb-scripting/the-basics
-Now heres the code!
+Now heres the code! https://github.com/MikeWelch184/BadUSB-ChromeOS-automated-enroller/blob/main/ChromeOS%20Duckyscript%20enroller
