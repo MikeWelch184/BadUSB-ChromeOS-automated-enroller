@@ -1,4 +1,4 @@
-REM This is a rough draft of a chromeOS enrollment script
+REM This is a ChromeOS enrolling script for a BadUSB / Malduino / USB rubberducky
 DEFAULTDELAY 1500
 DELAY
 ENTER
@@ -33,19 +33,12 @@ DELAY
 ENTER
 REM ^ clicks button for manaul SSID add
 DELAY
-SHIFT r
-SHIFT c
-SHIFT i
-SHIFT s
-SHIFT d
-SPACE
-SHIFT g
-STRING uest
+STRING YOUR WIFI SSID HERE
 DELAY
 SHIFT TAB 
 DELAY
 ENTER
-REM ^ goofy way of getting it to type the right SSID works up until here^
+REM ^ entered all the wifi info here
 DELAY
 DELAY
 DELAY
@@ -71,14 +64,12 @@ DELAY
 ENTER 
 REM ^ navigates TOS screen
 DELAY 10000
-STRING enroll
+STRING YOUR ENROLLING ACCOUNT USERNAME HERE
 DELAY
 ENTER
 REM ^ username stuff
 DELAY
-SHIFT b
-DELAY
-STRING ulldogs2023 
+STRING YOUR ENROLLING ACCOUNT PASSWORD HERE
 DELAY
 ENTER
 REM ^ password stuff
