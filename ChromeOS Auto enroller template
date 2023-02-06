@@ -1,0 +1,96 @@
+REM This is a rough draft of a chromeOS enrollment script
+DEFAULTDELAY 1500
+DELAY
+ENTER
+REM ^ LOGIN SCREEN
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+ENTER
+REM ^ Pulls far right corner menu
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+ENTER
+REM ^ 4 TAB for pulling manual wifi SSID add
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+ENTER
+REM ^ clicks button for manaul SSID add
+DELAY
+SHIFT r
+SHIFT c
+SHIFT i
+SHIFT s
+SHIFT d
+SPACE
+SHIFT g
+STRING uest
+DELAY
+SHIFT TAB 
+DELAY
+ENTER
+REM ^ goofy way of getting it to type the right SSID works up until here^
+DELAY
+DELAY
+DELAY
+REM ^ extra delays here for the device to join the SSID and not freak out
+TAB
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+ENTER
+REM ^ tabs to TOS screen
+DELAY 10000
+SHIFT TAB
+DELAY 
+RIGHT TAB
+DELAY 
+TAB
+TAB
+TAB
+TAB
+DELAY
+ENTER 
+REM ^ navigates TOS screen
+DELAY 10000
+STRING enroll
+DELAY
+ENTER
+REM ^ username stuff
+DELAY
+SHIFT b
+DELAY
+STRING ulldogs2023 
+DELAY
+ENTER
+REM ^ password stuff
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+TAB
+DELAY
+ENTER
+REM ^ asset identifier stuff
+DELAY
+ENTER
+REM cry tears of joy if this worked
