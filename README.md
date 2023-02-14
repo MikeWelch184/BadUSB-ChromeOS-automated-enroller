@@ -1,8 +1,7 @@
 # BadUSB-ChromeOS-automated-enroller
-The Duckyscript file in this repository is responsible for automatically enrolling Chromebooks into a Google Workspace.
+The Duckyscript file in this repository is responsible for automatically enrolling Chromebooks into a Google Workspace. Depending on the version of ChromeOS or if the device has previously been through the enterprise enrollment you may need to modify the script.
+<h2>Useful Links:</h2>
 
-  I work in a K-12 Google Workspace shop. This is a Tool I wrote based on Amplified ITs project centipede. https://www.amplifiedit.com/centipede/ . 
-Essentially you use a script and a USB that injects keystrokes (think like a programable keyboard) automatically. 
-Here are Links to the BadUSB I purchased https://maltronics.com/collections/malduinos/products/malduino-2
-and links to the scripting language basics if you want to write a script for something else. https://docs.maltronics.com/badusb-scripting/the-basics
-Now heres the code! https://github.com/MikeWelch184/BadUSB-ChromeOS-automated-enroller/blob/main/ChromeOS%20Duckyscript%20enroller
+  - [Duckyscript language](https://docs.maltronics.com/badusb-scripting/the-basics)
+  - [Similar project that uses arduinos](https://www.amplifiedit.com/centipede/)
+  - [Seytonics shop where I bought the BadUSB I used for this project.](https://maltronics.com/collections/malduinos/products/malduino-2)
